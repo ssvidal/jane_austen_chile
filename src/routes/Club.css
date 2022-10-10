@@ -1,0 +1,46 @@
+.contenedor-directiva {
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-saloncito {
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundadora-img {
+  width: 490px;
+  height: 320px;
+}
+.saloncito-img {
+  width: 490px;
+  height: 320px;
+}
+
+.directiva-img {
+  width: 600px;
+  height: 400px;
+}
+.chicas-img {
+  width: 490px;
+  height: 320px;
+}
+
+.quienes-somos {
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(84, 42, 47, 0.55);
+  border-radius: 30px;
+}

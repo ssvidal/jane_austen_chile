@@ -1,0 +1,64 @@
+.datos {
+  margin-bottom: 20px;
+  background-color: rgba(84, 42, 47, 0.55);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.datos-title {
+  margin: 40px 0 20px 0;
+  text-align: center;
+  color: white;
+}
+.datos-container {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+.datos-text-big {
+  width: 55%;
+  margin-right: 60px;
+}
+.datos-image-big {
+  display: flex;
+  width: 45%;
+  place-content: center;
+}
+
+.datos-text-small {
+  width: 65%;
+  margin-right: 60px;
+}
+.datos-image-small {
+  display: flex;
+  width: 35%;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1000px) {
+  .datos-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .datos-text-small {
+    width: 100%;
+    margin: 0 8vw 0 35px;
+  }
+  .datos-text-big {
+    width: 100%;
+    margin: 0 8vw 0 35px;
+  }
+  .datos-image-big {
+    width: 100%;
+    justify-content: center;
+  }
+  .datos-image-small {
+    width: 100%;
+    justify-content: center;
+  }
+}

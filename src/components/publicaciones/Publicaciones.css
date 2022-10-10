@@ -1,0 +1,46 @@
+.contenedor-publicaciones {
+  width: 90%;
+  height: auto;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(84, 42, 47, 0.55);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.imagen-publicaciones {
+  height: 368px;
+  padding: 4vw;
+  width: auto;
+  display: flex;
+}
+.imagen-publicaciones img {
+  object-fit: scale-down;
+}
+
+.contenedor-texto-publicaciones {
+  text-align: center;
+  padding: 4vw;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.nombre-publicaciones {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.texto-publicaciones {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+@media (max-width: 650px) {
+  .contenedor-publicaciones {
+    flex-direction: column;
+    width: 95%;
+  }
+}

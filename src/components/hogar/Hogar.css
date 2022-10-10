@@ -1,0 +1,59 @@
+/* general */
+.container {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/* inicio */
+.inicio {
+  text-align: center;
+  margin-top: 100px;
+  justify-content: center;
+}
+.inicio-img-container {
+  width: 60%;
+  margin: auto;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+.titulo-inicio {
+  margin-top: 60px;
+  text-align: center;
+}
+
+/* historia */
+.historia {
+  margin-top: 80px;
+  display: flex;
+}
+
+.historia-info {
+  width: 60%;
+}
+
+.historia-img-container {
+  width: 40%;
+}
+
+/* museo virtual */
+.museo-virtual {
+  margin: 10px 10px 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.museo-img-container {
+  width: 60%;
+  margin: 40px auto;
+}
+.museo-subtitulo {
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  .container {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}

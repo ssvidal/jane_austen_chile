@@ -1,0 +1,46 @@
+.hero-img {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  position: relative;
+
+  /*background: url("https://c0.wallpaperflare.com/preview/138/584/0/book-bindings-book-series-books-bookshelf.jpg");*/
+  background: url("https://1.bp.blogspot.com/-11Y8w4hngLk/YFXSeO2oTCI/AAAAAAAAQIE/dJwOIUEWk94sp_oAR3VGbSDaqoUfDhfNgCLcBGAsYHQ/s2048/SENTIDO%2BY%2BSENSIBILIDAD.JPG");
+  background-color: black;
+  opacity: 0.8;
+  object-fit: contain;
+}
+
+.hero-img::before {
+  content: "";
+
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img h1 {
+  font-size: 3.4rem;
+  text-align: center;
+}
+
+.hero-img p {
+  font-size: 2.4rem;
+}
+@media screen and (max-width: 640) {
+  .hero-img h1 {
+    font-size: 2.4rem;
+  }
+}

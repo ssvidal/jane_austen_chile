@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+}

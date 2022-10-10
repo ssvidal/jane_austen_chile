@@ -1,0 +1,12 @@
+.logo-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.logo-contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}

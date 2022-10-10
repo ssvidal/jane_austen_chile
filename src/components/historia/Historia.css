@@ -1,0 +1,21 @@
+.container {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.inicio {
+  text-align: center;
+  margin-top: 100px;
+}
+.inicio-img-container {
+  width: 60%;
+  margin: auto;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+.titulo-inicio {
+  margin-top: 60px;
+  text-align: center;
+}
